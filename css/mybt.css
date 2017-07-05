@@ -1,0 +1,331 @@
+
+    /*公共*/
+h2 {
+    line-height: 30px;
+    height: 30px;
+    color:#72b842;
+}
+@media (max-width: 620px) {
+    .templatemo_blog .col-mico-12{
+        width: 80%;
+        float: left;
+        margin: 0 auto;
+    }
+    #templatemo_blog .container .row{
+        display: grid;
+    }
+}
+/*导航*/
+.nav .pic{
+    width: 80px;
+    margin-top: 2px
+}
+.navbar{
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+.navbar li a{
+    padding: 30px 20px
+}
+.navbar li a:hover{
+    color: #f5a2b4;
+}
+.navbar .nav li:hover a{
+    color:  #72b842;
+}
+.navbar .nav .dropdown:hover a{
+    color: #777;
+}
+/*轮播图*/
+.item h3{
+    color: #9b59a0
+}
+.carousel .item img{
+    width: 100%;
+}
+.carousel-indicators li{
+    background-color: #666;
+}
+.carousel-indicators li.active{
+    background-color: #72b842;
+}
+.carousel-indicators{
+    top: 98%;
+    left: 50%;
+}
+/*四个小块*/
+#templatemo_about{
+    background: #eee;
+    padding: 80px 0;
+}
+.templatemo_about_box{
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.square_coner span{
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    background: #72b842;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 32px;
+}
+.templatemo_col12 .item{
+    position:relative;
+    max-width: 330px;
+    margin: 0 auto;
+    min-width: 150px;
+}
+.templatemo_col12 .item .hover-box:hover {
+    display: flex;
+    opacity: 1;
+    border-radius: 50%;
+}
+.templatemo_col12 .hover-box{
+    position: absolute;
+    height: 100%;
+    background:#72b842;
+    left: 0;top: 0;
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    width: 95%;
+    transition: all 0.3s;
+    display: flex;
+    margin-left: 2.5%;
+}
+.templatemo_col12{
+    margin: 50px 0;
+}
+/*full区 Reasons to choose us?*/
+.full{
+    background:url("images/full_1.jpg") no-repeat;
+    height: 850px;
+    width: 86%;
+    margin: 0 auto;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+    background-size: cover;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.full .full_inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding-top: 1px;
+    overflow: hidden;
+}
+.full .full_inner h2{
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.full .full_inner .box{
+    width: 50%;
+    margin: 0 auto;
+    transform: rotate(-4deg);
+    position: absolute;
+    left: 25%;
+    top: 180px;
+    cursor: move;
+    min-height: 465px;
+    transition:transform 0.5s ;
+}
+.full .full_inner .box:hover{
+    transform: rotate(0deg);
+}
+.full .full_inner .panel-body{
+    color: #133738
+}
+.full .full_inner .panel-body p{
+    transform: rotate(4deg);
+    font-size: 24px;
+    line-height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.full .full_inner span{
+    font-size: 26px;
+    line-height: 50px;
+    padding-right: 18px;
+    cursor: pointer;
+    color: #ccc
+}
+.full .full_inner span.glyphicon-option-horizontal{
+    font-size: 38px;
+}
+.full .full_inner span.blank{
+    width: 77%;
+    height: 40px;
+    margin-top: 5px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 3%;
+}
+.full .full_inner span.first{
+    font-size: 48px;
+    margin-left: 25px;
+}
+.pad10_left{
+    padding-left:40px;
+}
+.pad10_right{
+    padding-right: 40px;
+}
+#box .panel{
+    margin-bottom: 0;
+}
+/*Our portfolio 区域 小图片集合区*/
+.templatemo_portfolio {
+    padding: 120px 0px;
+    text-align: center;
+}
+.templatemo_portfolio p {
+    padding-bottom: 150px;
+    font-size:20px;
+}
+.templatemo_portfolio .item img{max-width: 220px;margin: 0 auto}
+/*our blog 区域*/
+.templatemo_blog {
+    width: 100%;
+    background: #333537;
+    padding: 80px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.templatemo_blog h2{
+    color: #fff
+}
+.templatemo_blog p{
+    padding-bottom: 50px;
+}
+.templatemo_wrapperblogbox{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.templatemo_wrapperblogbox span.fa {
+    padding: 8px;
+    background: #c6cfd3;
+    color: #ffffff;
+    margin: 0px;
+    text-align: left;
+    float: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    align-items: center;
+
+}
+.templatemo_wrapperblogbox span.fa:hover {
+    background: #72b842;
+}
+.templatemo_blog .templatemo_col12{
+    overflow: hidden;
+    height: 270px;
+}
+.templatemo_blog img:hover{
+    opacity: .5;
+    width: 108%;
+    margin:0 auto;
+    margin-left: -4%;
+}
+.templatemo_blog img.acts{
+    opacity: .5;
+    width: 108%;
+    margin:0 auto;
+    margin-left: -4%;
+}
+.templatemo_blog img{
+    width: 100%;
+    transition: all 0.1s;
+    margin: 0;
+    height: 100%;
+
+}
+.templatemo_blog .pic{
+    height: 80%;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #7b7b7b;
+    border-radius: 5px;
+    position: relative;
+}
+.templatemo_blog .pic span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+    margin:0 auto;
+    opacity: 0;
+    transition: all 0.8s;
+    font-size: 26px;
+}
+/*rate 区域*/
+#rate{
+    padding: 80px 0;
+}
+#rate p{
+    padding: 20px 0
+}
+#rate .row:nth-of-type(1){
+    margin-bottom: 20px;
+}
+/*底部区域*/
+.templatemo_bottom {
+    padding: 30px 0px;
+    width: 100%;
+    background: #eee;
+}
+.templatemo_bottom .left {
+    font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 18px 0;
+}
+.templatemo_bottom .right {
+    padding-right: 30px;
+}
+.templatemo_bottom .right a{
+    border: 1px solid #ccc;
+    padding:12px 16px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.templatemo_bottom .right a:hover{
+    background-color: #ccc;
+}
+@media (min-width: 992px) {
+    .templatemo_blog .left{
+        float: left;
+    }
+    .templatemo_bottom .right a{
+        float: right;
+    }
+}
+
+
+
+
+
+
+
+
+
